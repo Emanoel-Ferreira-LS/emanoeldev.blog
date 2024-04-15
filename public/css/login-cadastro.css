@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+html, body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.escolha{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(231, 231, 231, 0.836);
+}
+
+.area-login{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aquamarine;
+    z-index: 0;
+    transition: all 1s;
+}
+
+.area-cadastro{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aquamarine;
+    display: none;
+    transition: all 1s;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    width: 300px;
+}
+
+.btn-cadastro{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+.btn-login{
+    background-color: aliceblue;
+    border:none;
+    padding: 5px;
+}
+
+.btn-login:hover,.btn-cadastro:hover{
+    cursor: pointer;
+}
